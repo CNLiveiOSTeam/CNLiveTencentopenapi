@@ -1,0 +1,2 @@
+# CNLiveTencentopenapi
+腾讯QQframework包装
