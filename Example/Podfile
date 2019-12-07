@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CNLiveTencentopenapi_Example' do
+  pod 'CNLiveTencentopenapi', :path => '../'
+
+  target 'CNLiveTencentopenapi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
