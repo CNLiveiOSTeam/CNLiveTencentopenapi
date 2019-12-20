@@ -12,6 +12,7 @@
 		4E06BD3F239B6B2C000FB0CD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E06BD3E239B6B2C000FB0CD /* SystemConfiguration.framework */; };
 		4E06BD40239B6B38000FB0CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		4E06BD44239B6B78000FB0CD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E06BD43239B6B78000FB0CD /* CoreTelephony.framework */; };
+		4E729E1B23ACA90000CC7776 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E729E1A23ACA90000CC7776 /* WebKit.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -50,6 +51,7 @@
 		4E06BD42239B6B6D000FB0CD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		4E06BD43239B6B78000FB0CD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		4E06BD45239B6B82000FB0CD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4E729E1A23ACA90000CC7776 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		5D050A87593CFE69DEFCA010 /* Pods-CNLiveTencentopenapi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNLiveTencentopenapi_Example.release.xcconfig"; path = "Target Support Files/Pods-CNLiveTencentopenapi_Example/Pods-CNLiveTencentopenapi_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CNLiveTencentopenapi_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNLiveTencentopenapi_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E729E1B23ACA90000CC7776 /* WebKit.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				4E06BD3D239B6B22000FB0CD /* Security.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
@@ -133,6 +136,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E729E1A23ACA90000CC7776 /* WebKit.framework */,
 				4E06BD45239B6B82000FB0CD /* libz.tbd */,
 				4E06BD43239B6B78000FB0CD /* CoreTelephony.framework */,
 				4E06BD42239B6B6D000FB0CD /* libsqlite3.tbd */,

@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'CNLiveTencentopenapi/Classes/TencentOpenAPI.framework'
-  s.frameworks = 'Security','SystemConfiguration','CoreGraphics','CoreTelephony'
+  s.frameworks = 'Security','SystemConfiguration','CoreGraphics','CoreTelephony','WebKit'
   s.libraries = 'sqlite3','iconv','stdc++','z'
  # s.source_files = 'CNLiveTencentopenapi/Classes/**/*'
   
