@@ -20,7 +20,6 @@ TODO: Add long description of the pod here.
   s.author           = { '殷巧娟' => '1427945373@qq.com' }
   s.source           = { :git => 'https://github.com/CNLiveiOSTeam/CNLiveTencentopenapi.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'CNLiveTencentopenapi/Classes/TencentOpenAPI.framework'
   s.frameworks = 'Security','SystemConfiguration','CoreGraphics','CoreTelephony','WebKit'
